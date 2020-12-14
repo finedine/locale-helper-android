@@ -29,6 +29,8 @@ object Locales {
     val Italian: Locale by lazy { Locale("it", "IT") }
     val Japanese: Locale by lazy { Locale("ja", "JP") }
     val Korean: Locale by lazy { Locale("ko", "KR") }
+    val Kurdish: Locale by lazy { Locale("ku", "ku-TR") }
+    val KurdishArabic: Locale by lazy { Locale("ckb", "IR") }
     val Latvian: Locale by lazy { Locale("lv", "LV") }
     val Lithuanian: Locale by lazy { Locale("lt", "LT") }
     val Luo: Locale by lazy { Locale("luo", "KE") }
@@ -60,6 +62,7 @@ object Locales {
     val RTL: Set<String> by lazy {
         hashSetOf(
             "ar",
+            "ckb",
             "dv",
             "fa",
             "ha",
